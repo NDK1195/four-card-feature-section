@@ -1,33 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./src/output.css">
-  <title>Frontend Mentor | Four card feature section</title>
-
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body class="min-h-screen bg-very-light-gray">
+    <main class="flex min-h-screen items-center justify-center">
+      <div class="mx-6 my-20 min-w-[311px] max-w-[1110px] lg:m-0">
+        <div
+          class="mb-[76px] text-center text-2xl font-light leading-none tracking-[0.167px] text-very-dark-blue lg:mb-16 lg:text-4xl lg:tracking-[0.25px]"
+        >
+          <h2 class="mb-2 font-light">Reliable, efficient delivery</h2>
+          <h1 class="mb-4 font-semibold">Powered by Technology</h1>
+          <p
+            class="mx-auto max-w-[540px] text-[15px] leading-[25px] tracking-[0.104px] text-grayish-blue"
+          >
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
+        <!-- Title -->
+        <!-- Content box -->
+        <div
+          class="flex flex-col items-center justify-center gap-6 lg:flex-row lg:flex-wrap lg:gap-[30px]"
+        >
+          <div
+            class="max-w-[350px] rounded-lg border-t-[3.552px] border-t-cyan bg-white p-7 shadow-box lg:relative lg:border-t-4 lg:p-8 xl:top-[140px]"
+          >
+            <h3
+              class="mb-1 text-xl font-semibold leading-none text-very-dark-blue lg:mb-2"
+            >
+              Supervisor
+            </h3>
+            <p
+              class="mb-9 text-[13px] leading-[23px] tracking-[0.09px] text-grayish-blue lg:mb-11"
+            >
+              Monitors activity to identify project roadblocks
+            </p>
+            <img
+              src="./images/icon-supervisor.svg"
+              alt="icon supervisor"
+              class="ml-auto size-[57px] lg:size-16"
+            />
+          </div>
+          <!-- box -->
+          <div
+            class="max-w-[350px] rounded-lg border-t-[3.552px] border-t-red bg-white p-7 shadow-box lg:border-t-4 lg:p-8"
+          >
+            <h3
+              class="mb-1 text-xl font-semibold leading-none text-very-dark-blue lg:mb-2"
+            >
+              Team Builder
+            </h3>
+            <p
+              class="mb-9 text-[13px] leading-[23px] tracking-[0.09px] text-grayish-blue lg:mb-11"
+            >
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              src="./images/icon-team-builder.svg"
+              alt="icon team builder"
+              class="ml-auto size-[57px] lg:size-16"
+            />
+          </div>
+          <!-- box -->
+          <div
+            class="max-w-[350px] rounded-lg border-t-[3.552px] border-t-orange bg-white p-7 shadow-box lg:order-last lg:border-t-4 lg:p-8"
+          >
+            <h3
+              class="mb-1 text-xl font-semibold leading-none text-very-dark-blue lg:mb-2"
+            >
+              Karma
+            </h3>
+            <p
+              class="mb-9 text-[13px] leading-[23px] tracking-[0.09px] text-grayish-blue lg:mb-11"
+            >
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img
+              src="./images/icon-karma.svg"
+              alt="icon karma"
+              class="ml-auto size-[57px] lg:size-16"
+            />
+          </div>
+          <!-- box -->
+          <div
+            class="max-w-[350px] rounded-lg border-t-[3.552px] border-t-blue bg-white p-7 shadow-box lg:relative lg:border-t-4 lg:p-8 xl:top-[140px]"
+          >
+            <h3
+              class="mb-1 text-xl font-semibold leading-none text-very-dark-blue lg:mb-2"
+            >
+              Calculator
+            </h3>
+            <p
+              class="mb-9 text-[13px] leading-[23px] tracking-[0.09px] text-grayish-blue lg:mb-11"
+            >
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img
+              src="./images/icon-calculator.svg"
+              alt="icon calculator"
+              class="ml-auto size-[57px] lg:size-16"
+            />
+          </div>
+          <!-- box -->
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
